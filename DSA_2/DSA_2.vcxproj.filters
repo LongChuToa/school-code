@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ann">
+      <UniqueIdentifier>{9e3a3190-031b-4fcf-83c9-0b8c1156acde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ann\layer">
+      <UniqueIdentifier>{2762174f-5f44-4e1b-b5e4-7f6aed85b1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ann\optim">
+      <UniqueIdentifier>{6a54a76e-af57-4e22-a479-fe6eb4fa689e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\hash">
+      <UniqueIdentifier>{b92f013a-e459-4737-9e95-f8f7ada6833e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\list">
+      <UniqueIdentifier>{b5c52b78-45a9-44fc-b2da-5a2c7af1dca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{9aaf6973-1179-4be5-b88d-436f035d768d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ann">
+      <UniqueIdentifier>{b4067c91-a4d9-47de-bf83-02b313521308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\tensor">
+      <UniqueIdentifier>{b4aa718c-0ae6-49c5-91f2-495b283e6367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ann\layer">
+      <UniqueIdentifier>{ca150086-9c93-4e67-936e-4e6221c268fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\loader">
+      <UniqueIdentifier>{d9713c8c-72f8-4f91-8acb-ac329516a7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\heap">
+      <UniqueIdentifier>{d0a70ffc-3979-4b93-a9fa-d505bd6a01da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\heap\IHeap.h">
+      <Filter>Header Files\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\heap\Heap.h">
+      <Filter>Header Files\heap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ann\functions.h">
+      <Filter>Header Files\ann</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ann\layer\ILayer.h">
+      <Filter>Header Files\ann\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ann\layer\ReLU.h">
+      <Filter>Header Files\ann\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ann\layer\Sigmoid.h">
+      <Filter>Header Files\ann\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ann\layer\Softmax.h">
+      <Filter>Header Files\ann\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ann\layer\Tanh.h">
+      <Filter>Header Files\ann\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ann\layer\FCLayer.h">
+      <Filter>Header Files\ann\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hash\xMap.h">
+      <Filter>Header Files\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hash\IMap.h">
+      <Filter>Header Files\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list\IList.h">
+      <Filter>Header Files\list</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list\XArrayList.h">
+      <Filter>Header Files\list</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list\DLinkedList.h">
+      <Filter>Header Files\list</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsaheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\list\listheader.h">
+      <Filter>Header Files\list</Filter>
+    </ClInclude>
+    <ClInclude Include="include\loader\dataloader.h">
+      <Filter>Header Files\loader</Filter>
+    </ClInclude>
+    <ClInclude Include="include\loader\dataset.h">
+      <Filter>Header Files\loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\program.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ann\layer\Layer.cpp">
+      <Filter>Source Files\src\ann\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ann\layer\ReLU.cpp">
+      <Filter>Source Files\src\ann\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ann\layer\Sigmoid.cpp">
+      <Filter>Source Files\src\ann\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ann\layer\Softmax.cpp">
+      <Filter>Source Files\src\ann\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ann\layer\Tanh.cpp">
+      <Filter>Source Files\src\ann\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ann\layer\FCLayer.cpp">
+      <Filter>Source Files\src\ann\layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,303 @@
+﻿  FCLayer.cpp
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(756,39): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/ann/layer/FCLayer.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file 'src/ann/layer/FCLayer.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\format-inl.h(61,10):
+          see reference to function template instantiation 'std::remove_cv<remove_reference<_Ty>::type>::type fmt::v11::format_to(OutputIt &&,fstring<char,T...>::t,T ...)' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2941,43):
+          see reference to alias template instantiation 'fmt::v11::format_string<fmt::v11::string_view&,const char(&)[3]>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2842,78):
+          see reference to class template instantiation 'fmt::v11::fstring<char,fmt::v11::string_view &,const char (&)[3]>' being compiled
+  
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\FCLayer.cpp(210,33): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\FCLayer.cpp(211,34): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Layer.cpp
+  ReLU.cpp
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(756,39): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/ann/layer/ReLU.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file 'src/ann/layer/ReLU.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\format-inl.h(61,10):
+          see reference to function template instantiation 'std::remove_cv<remove_reference<_Ty>::type>::type fmt::v11::format_to(OutputIt &&,fstring<char,T...>::t,T ...)' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2941,43):
+          see reference to alias template instantiation 'fmt::v11::format_string<fmt::v11::string_view&,const char(&)[3]>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2842,78):
+          see reference to class template instantiation 'fmt::v11::fstring<char,fmt::v11::string_view &,const char (&)[3]>' being compiled
+  
+  Sigmoid.cpp
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(756,39): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/ann/layer/Sigmoid.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file 'src/ann/layer/Sigmoid.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\format-inl.h(61,10):
+          see reference to function template instantiation 'std::remove_cv<remove_reference<_Ty>::type>::type fmt::v11::format_to(OutputIt &&,fstring<char,T...>::t,T ...)' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2941,43):
+          see reference to alias template instantiation 'fmt::v11::format_string<fmt::v11::string_view&,const char(&)[3]>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2842,78):
+          see reference to class template instantiation 'fmt::v11::fstring<char,fmt::v11::string_view &,const char (&)[3]>' being compiled
+  
+  Softmax.cpp
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(756,39): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/ann/layer/Softmax.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file 'src/ann/layer/Softmax.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\format-inl.h(61,10):
+          see reference to function template instantiation 'std::remove_cv<remove_reference<_Ty>::type>::type fmt::v11::format_to(OutputIt &&,fstring<char,T...>::t,T ...)' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2941,43):
+          see reference to alias template instantiation 'fmt::v11::format_string<fmt::v11::string_view&,const char(&)[3]>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2842,78):
+          see reference to class template instantiation 'fmt::v11::fstring<char,fmt::v11::string_view &,const char (&)[3]>' being compiled
+  
+  Tanh.cpp
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(756,39): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/ann/layer/Tanh.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file 'src/ann/layer/Tanh.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\format-inl.h(61,10):
+          see reference to function template instantiation 'std::remove_cv<remove_reference<_Ty>::type>::type fmt::v11::format_to(OutputIt &&,fstring<char,T...>::t,T ...)' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2941,43):
+          see reference to alias template instantiation 'fmt::v11::format_string<fmt::v11::string_view&,const char(&)[3]>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2842,78):
+          see reference to class template instantiation 'fmt::v11::fstring<char,fmt::v11::string_view &,const char (&)[3]>' being compiled
+  
+  program.cpp
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(756,39): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/program.cpp')
+  
+C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file 'src/program.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2781,44):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\format-inl.h(61,10):
+          see reference to function template instantiation 'std::remove_cv<remove_reference<_Ty>::type>::type fmt::v11::format_to(OutputIt &&,fstring<char,T...>::t,T ...)' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2941,43):
+          see reference to alias template instantiation 'fmt::v11::format_string<fmt::v11::string_view&,const char(&)[3]>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\sformat\fmt\base.h(2842,78):
+          see reference to class template instantiation 'fmt::v11::fstring<char,fmt::v11::string_view &,const char (&)[3]>' being compiled
+  
+C:\Users\Hoang\source\repos\DSA_2\include\loader\dataloader.h(55,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/program.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\loader\dataloader.h(55,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\ann\modelzoo\twoclasses.h(37,32):
+          see reference to class template instantiation 'DataLoader<double,double>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\loader\dataloader.h(33,2):
+          while compiling class template member function 'DataLoader<double,double>::DataLoader(Dataset<DType,LType> *,int,bool,bool,int)'
+          with
+          [
+              DType=double,
+              LType=double
+          ]
+              C:\Users\Hoang\source\repos\DSA_2\include\ann\modelzoo\twoclasses.h(37,44):
+              see the first reference to 'DataLoader<double,double>::DataLoader' in 'twoclasses_classification'
+  
+C:\Users\Hoang\source\repos\DSA_2\include\hash\xMap.h(466,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'src/program.cpp')
+      C:\Users\Hoang\source\repos\DSA_2\include\hash\xMap.h(466,19):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\ann\optim\IOptimizer.h(27,36):
+          see reference to class template instantiation 'xMap<std::string,IParamGroup *>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\hash\xMap.h(233,21):
+          while compiling class template member function 'xMap<std::string,IParamGroup *>::~xMap(void)'
+          C:\Users\Hoang\source\repos\DSA_2\include\hash\xMap.h(459,53):
+          while compiling class template member function 'void xMap<std::string,IParamGroup *>::ensureLoadFactor(int)'
+              C:\Users\Hoang\source\repos\DSA_2\include\hash\xMap.h(254,18):
+              see the first reference to 'xMap<std::string,IParamGroup *>::ensureLoadFactor' in 'xMap<std::string,IParamGroup *>::put'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:             _Ty=ptrdiff_t
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47): warning C4244:         ]
+  (compiling source file 'src/program.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(142,47):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Hoang\source\repos\DSA_2\include\ann\modelzoo\twoclasses.h(37,45):
+          see reference to class template instantiation 'TensorDataset<double,double>' being compiled
+          C:\Users\Hoang\source\repos\DSA_2\include\loader\dataset.h(96,26):
+          while compiling class template member function 'DataLabel<DType,LType> TensorDataset<DType,LType>::getitem(int)'
+          with
+          [
+              DType=double,
+              LType=double
+          ]
+          C:\Users\Hoang\source\repos\DSA_2\include\loader\dataset.h(100,37):
+          see reference to function template instantiation 'xt::detail::make_view_impl::view_type xt::view<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,int&>(E,int &)' being compiled
+          with
+          [
+              T=size_t,
+              E=xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &
+          ]
+          C:\Users\Hoang\source\repos\DSA_2\include\tensor\xtensor\xview.hpp(1836,24):
+          see reference to function template instantiation 'xt::detail::make_view_impl::view_type xt::detail::make_view_impl<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,0,int&>(E,std::integer_sequence<size_t,0>,int &)' being compiled
+          with
+          [
+              T=size_t,
+              E=xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &
+          ]
+          C:\Users\Hoang\source\repos\DSA_2\include\tensor\xtensor\xview.hpp(1813,29):
+          see reference to function template instantiation 'xt::xview<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag> &,int>::xview<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,ptrdiff_t,>(CTA,FSL &&) noexcept' being compiled
+          with
+          [
+              T=size_t,
+              CTA=xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &,
+              FSL=ptrdiff_t
+          ]
+          C:\Users\Hoang\source\repos\DSA_2\include\tensor\xtensor\xview.hpp(882,16):
+          see reference to function template instantiation 'xt::xview<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<T>,true>,xt::xtensor_expression_tag> &,int>::xview<xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<T,4,std::allocator<T>,true>,xt::xtensor_expression_tag>&,_Ty,>(std::true_type,CTA,FSL &&) noexcept' being compiled
+          with
+          [
+              T=size_t,
+              _Ty=ptrdiff_t,
+              CTA=xt::xarray_container<xt::uvector<double,std::allocator<double>>,xt::layout_type::row_major,xt::svector<size_t,4,std::allocator<size_t>,true>,xt::xtensor_expression_tag> &,
+              FSL=ptrdiff_t
+          ]
+          C:\Users\Hoang\source\repos\DSA_2\include\tensor\xtensor\xview.hpp(896,37):
+          see reference to function template instantiation 'std::tuple<int>::tuple<_Ty,,0>(_This2 &&) noexcept' being compiled
+          with
+          [
+              _Ty=ptrdiff_t,
+              _This2=ptrdiff_t
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(358,16):
+          see reference to function template instantiation 'std::tuple<int>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' being compiled
+          with
+          [
+              _Ty=ptrdiff_t,
+              _Tag=std::_Exact_args_t,
+              _This2=ptrdiff_t
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\tuple(312,102):
+          see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=int,
+              _Ty=ptrdiff_t,
+              _Other=ptrdiff_t
+          ]
+  
+  Generating Code...
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\Tanh.cpp(34,1): error C4716: 'Tanh::backward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\Tanh.cpp(31,1): error C4716: 'Tanh::forward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\Softmax.cpp(35,1): error C4716: 'Softmax::backward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\Softmax.cpp(32,1): error C4716: 'Softmax::forward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\Sigmoid.cpp(30,1): error C4716: 'Sigmoid::forward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\Sigmoid.cpp(33,1): error C4716: 'Sigmoid::backward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\ReLU.cpp(31,1): error C4716: 'ReLU::forward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\ReLU.cpp(34,1): error C4716: 'ReLU::backward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\FCLayer.cpp(146,1): error C4716: 'FCLayer::forward': must return a value
+C:\Users\Hoang\source\repos\DSA_2\src\ann\layer\FCLayer.cpp(149,1): error C4716: 'FCLayer::backward': must return a value
+
+Project Performance Summary:
+    18504 ms  C:\Users\Hoang\source\repos\DSA_2\DSA_2.vcxproj   1 calls
+              18504 ms  Rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  CustomBuild                                1 calls
+        0 ms  CopyFileToFolders                          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  FindReferenceAssembliesForReferences       1 calls
+        0 ms  GetReferencedVCProjectsInfo                1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  WarnCompileDuplicatedFilename              1 calls
+        0 ms  ComputeStdModulesCompileInputs             1 calls
+        0 ms  FixupCLCompileOptions                      1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  SetTelemetryEnvironmentVariables           1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  IgnoreJavaScriptOutputAssembly             1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _AddOutputPathToGlobalPropertiesToRemove   1 calls
+        0 ms  PrepareProjectReferences                   1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  CoreCppClean                               1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  _CheckWindowsSDKInstalled                  1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  AddExternalIncludDirectoriesToPaths        1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  PGInstrumentedClean                        1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        1 ms  CleanPublishFolder                         1 calls
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 calls
+        1 ms  InitializeBuildStatus                      1 calls
+        6 ms  CoreClean                                  1 calls
+        8 ms  PrepareForBuild                            1 calls
+    18488 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    2 calls
+        0 ms  Touch                                      1 calls
+        0 ms  VCMessage                                  1 calls
+        0 ms  CheckVCToolsetVersion                      1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  SetRidAgnosticValueForProjects             1 calls
+        0 ms  GetOutOfDateItems                          3 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  MakeDir                                    7 calls
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  FindUnderPath                              2 calls
+        0 ms  ReadLinesFromFile                          2 calls
+        0 ms  Delete                                     5 calls
+        0 ms  SetEnv                                    11 calls
+        1 ms  MSBuild                                    1 calls
+        1 ms  WriteLinesToFile                           3 calls
+    18479 ms  CL                                         1 calls
