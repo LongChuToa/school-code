@@ -143,9 +143,22 @@ FCLayer::~FCLayer() {
 
 xt::xarray<double> FCLayer::forward(xt::xarray<double> X) {
 	//YOUR CODE IS HERE
+	if (m_trainable) {
+		m_aCached_X = X;
+	}
+	xt::xarray<double> Z = xt::linalg::tensordot(m_aCached_X, m_aGrad_W, 1);
+	if (m_bUse_Bias) {
+		Z = Z + m_aGrad_b;
+	}
+	return Z;
 }
 xt::xarray<double> FCLayer::backward(xt::xarray<double> DY) {
 	//YOUR CODE IS HERE
+	m_unSample_Counter++;
+	m_aGrad_W = xt::linalg::outer(DY, m_aCached_X);
+	if (m_bUse_Bias) {
+
+	}
 }
 
 int FCLayer::register_params(IParamGroup* ptr_group) {
